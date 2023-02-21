@@ -1,0 +1,7 @@
+let name="racecar;
+let sum="";
+
+for(let i=0;i<name.length;i++){
+sum+=name[i]
+}
+(sum==name)?console.log("palindrome"):console.log("Not a palindrome")
